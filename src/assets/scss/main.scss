@@ -1,0 +1,17 @@
+@import './transitions';
+@import './variables';
+@import './vuetify/overrides';
+@import './mixins';
+
+html {
+  font-size: 14px;
+  font-family: $body-font-family;
+
+  @media screen and (min-width: 1600px) {
+    font-size: 16px;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}

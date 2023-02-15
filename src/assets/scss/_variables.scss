@@ -1,0 +1,92 @@
+// @import "vuetify/src/styles/settings/variables";
+
+// Globals
+$body-font-family: "IBM Plex Sans Thai", sans-serif;
+$border-radius-root: 4px;
+$font-size-root: 1rem;
+$btn-icon-size: 20px;
+$sidebar-width: 256px;
+
+$grid-breakpoints: (
+  "xs": 0,
+  "sm": 768px,
+  "md": 1200px,
+  "lg": 1336px,
+  "xl": 1600px,
+);
+
+$display-breakpoints: (
+  'print-only': 'only print',
+  'screen-only': 'only screen',
+  'xs-only': 'only screen and (max-width: #{map-get($grid-breakpoints, 'sm') - 0.02})',
+  'sm-only': 'only screen and (min-width: #{map-get($grid-breakpoints, 'sm')}) and (max-width: #{map-get($grid-breakpoints, 'md') - 0.02})',
+  'sm-and-down': 'only screen and (max-width: #{map-get($grid-breakpoints, 'md') - 0.02})',
+  'sm-and-up': 'only screen and (min-width: #{map-get($grid-breakpoints, 'sm')})',
+  'md-only': 'only screen and (min-width: #{map-get($grid-breakpoints, 'md')}) and (max-width: #{map-get($grid-breakpoints, 'lg') - 0.02})',
+  'md-and-down': 'only screen and (max-width: #{map-get($grid-breakpoints, 'lg') - 0.02})',
+  'md-and-up': 'only screen and (min-width: #{map-get($grid-breakpoints, 'md')})',
+  'lg-only': 'only screen and (min-width: #{map-get($grid-breakpoints, 'lg')}) and (max-width: #{map-get($grid-breakpoints, 'xl') - 0.02})',
+  'lg-and-down': 'only screen and (max-width: #{map-get($grid-breakpoints, 'xl') - 0.02})',
+  'lg-and-up': 'only screen and (min-width: #{map-get($grid-breakpoints, 'lg')})',
+  'xl-only': 'only screen and (min-width: #{map-get($grid-breakpoints, 'xl')})'
+);
+
+$material-light: (
+  'text': (
+    'primary': rgba(black, 1),
+  ),
+  'table': (
+    'hover': rgba(#daecff, 0.15),
+  ),
+);
+
+// Custom variables
+$primary: #417ce9;
+$primary-bg-gradient: linear-gradient(180deg, #437be8 0%, #0f8dfb 100%);
+$primary-shadow: 0px 4px 5px #daecff;
+$btn-toggle-round-border-radius: 37px;
+$gray: #666;
+$bg-secondary: #f1f8ff;
+$bg-light-primary: #E1ECFF;
+$bg-active: #F5F9FF;
+$bg-disabled: #ecedf3;
+
+////Text
+$info: #3fa9ff;
+$iconSuccess: #06d79c;
+$accent: #ef5350;
+$error: #e40028;
+$iconWarning: #fba400;
+$default: #563dea;
+$received: #bc64ff;
+//// BG
+$info-bg: #daecff;
+$iconSuccess-bg: #eefcef;
+$error-bg: #ffeaeb;
+$iconWarning-bg: #faefd8;
+$received-bg: #f1e1fd;
+$black: #000;
+$white: #ffffff;
+
+// Menu Item
+$active-bg: #f1f8ff;
+
+// Breadcrumbs
+$breadcrumbs-padding: 1rem 0.5rem;
+
+// Border
+$border-primary: #daecff;
+$border-secondary: #ecedf3;
+$border-input: #ccd2e3;
+$border-divider: #DEE2E4;
+$border-radius-root: 5px;
+
+// Text
+$gray-text: #666;
+$placehoder: #ccd2e3;
+
+// text transform
+$text-transform: capitalize;
+
+// label
+$label-primary: #AFAFBE;
